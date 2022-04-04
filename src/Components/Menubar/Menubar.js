@@ -4,7 +4,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Menubar = () => {
     return (
-        <div className='sticky top-0 justify-center px-12 py-4 flex gap-4 text-xl bg-'>
+        <div className='sticky top-0 justify-center px-12 py-4 flex gap-4 text-xl md:flex col-span-1 lg:flex  '>
             <CustomLink to='/home'>HOME</CustomLink>
             <CustomLink  to="/reviews">REVIEWS</CustomLink>
             <CustomLink to='/dashboard'>DASBOARD</CustomLink>
