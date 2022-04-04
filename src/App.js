@@ -1,10 +1,23 @@
-
+import {Routes,Route} from 'react-router-dom'
 import './App.css';
-
+import Menubar from './Components/Menubar/Menubar';
+import Home from './Components/Home/Home'
+import Reviwes from './Components/Reviews/Reviwes';
+import Dashborad from './Components/Dashboard/Dashboard'
+import Blogs from './Components/Blogs/Blogs'
+import About from './Components/About/About'
 function App() {
   return (
     <div>
-      <h2 className='text-2xl'>This is home for new site</h2>
+      <Menubar></Menubar>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path='/reviews' element={<Reviwes></Reviwes>}></Route>
+        <Route path='/dashboard' element={<Dashborad></Dashborad>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route  path='/about' element={<About></About>}></Route>
+      </Routes>
       
     </div>
   );
