@@ -1,4 +1,9 @@
 # https://beamish-griffin-01f784.netlify.app/about
+
+* Fixed Navbar 
+* Using Route Navbar
+* Reachart and Reviews
+* Use custom Hooks
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
