@@ -21,17 +21,19 @@ const Home = () => {
            </div>
         
         </div>
-       
-        <div>
+        <div className='item-center justify-center'>
         <h2 className="text-3xl items-center">Customer Reviews</h2>
+        <div className='flex grid-cols-3'>     
             {
              reviews.slice(0,3).map(review => <Review review={review}></Review>
              
              )
                 
             }
-          <Link className='bg-cyan-400  p-3' to='/reviews'> See All</Link>
+            </div> 
+          <Link className='bg-cyan-400 item-center p-3' to='/reviews'> See All</Link>
         </div>
+      
         </>
     );
 };
