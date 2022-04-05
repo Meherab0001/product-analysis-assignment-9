@@ -31,7 +31,7 @@ const Home = () => {
                 
             }
             </div> 
-          <Link className='bg-cyan-400 item-center p-3' to='/reviews'> See All</Link>
+          <Link className='bg-cyan-400 text-center p-3' to='/reviews'> See All</Link>
         </div>
       
         </>
